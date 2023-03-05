@@ -1,0 +1,4 @@
+package reflection;
+
+interface MyInterface {
+}
