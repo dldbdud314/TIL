@@ -2,7 +2,9 @@ package reflection;
 
 @MyAnnotation(name = "joy12", number = 3)
 public class Book {
-    private static String b = "BOOK1";
+    public static String A = "BOOK1";
+
+    private static String B = "BOOK12";
 
     @MyAnnotation(name = "aaa1", number = 4)
     private static final String c = "BOOK2";
@@ -31,7 +33,7 @@ public class Book {
         System.out.println("G");
     }
 
-    public int h() {
-        return 100;
+    public int sum(int a, int b) {
+        return a + b;
     }
 }
